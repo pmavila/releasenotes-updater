@@ -98,23 +98,15 @@ Matching is case-insensitive. JIRA-style prefixes (e.g. `KWOS-123 feat: ...`) ar
 *  JIRA-012 fix: Problematic neighbour running towards you [View](https://...)
 ```
 
----
+## Support & Contact
 
-## Customisation
-
-**Bitbucket URL** — the commit link base URL is hardcoded in the `--pretty=format` git log calls. Update it to match your repository:
-
-```bash
-# Find and replace this pattern in the script:
-https://bitbucket.org/your-org/your-repo/commits/%H
-```
-
-**Category prefixes** — edit the `categorise_commit()` function to add, remove, or rename categories.
-
-**Merge commits** — merge commits are excluded via `grep -v Merge`. Remove that filter if you want them included.
+- **GitHub**: https://github.com/pmavila
+- **Hire me**: https://www.linkedin.com/in/paulo-miguel-avila/
+- **Buy me a coffee**: https://www.paypal.me/webpoga
 
 ---
 
 ## License
 
-MIT
+GNU General Public License v3.0 (GPLv3) — see https://www.gnu.org/licenses/gpl-3.0.html
+
